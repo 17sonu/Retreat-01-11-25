@@ -1,0 +1,75 @@
+.retreat-section {
+  padding: 10px 2%;
+}
+
+.retreat-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.retreat-card {
+  position: relative;
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #111;
+  flex-shrink: 0;
+}
+
+.retreat-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.retreat-overlay {
+  position: absolute;
+  inset: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.3));
+  color: #fff;
+  text-align: left;
+}
+
+.retreat-overlay h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.retreat-overlay h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.retreat-overlay p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  opacity: 0.95;
+}
+
+.learn-btn {
+  align-self: flex-start;
+  padding: 10px 25px;
+  border: 1.8px solid #fff;
+  border-radius: 30px;
+  background: transparent;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.learn-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}

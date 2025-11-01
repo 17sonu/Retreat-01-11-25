@@ -1,0 +1,90 @@
+.stories-section {
+  margin-top: 20vh;
+  background: #1b1412;
+  color: #fff;
+  padding: 60px 80px;
+  overflow: hidden;
+}
+
+.stories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.stories-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.read-more-btn {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.read-more-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.stories-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  cursor: grab;
+  user-select: none;
+  padding-bottom: 10px;
+}
+
+.stories-container::-webkit-scrollbar {
+  display: none;
+}
+
+.story-card {
+  position: relative;
+  min-width: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #222;
+  transition: transform 0.3s;
+}
+
+.story-card:hover {
+  transform: scale(1.03);
+}
+
+.story-card img {
+  width: 306px;
+  height: 306px;
+  object-fit: cover;
+  display: block;
+}
+
+.story-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  color: #fff;
+}
+
+.story-overlay h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.story-overlay p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
