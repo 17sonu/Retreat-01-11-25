@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import logoWhite from "../assets/logo--white.svg";
-import logoColor from "../assets/logo--black.svg"; // add your alternate logo
+import logoWhite from "../assets/FullLogo_Transparent.png";
+import logoColor from "../assets/FullLogo_Transparent.png"; // add your alternate logo
 import "./Navbar.css";
 
 const Navbar = () => {
